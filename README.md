@@ -10,7 +10,7 @@
 > docker-compose up -d
 
 ## Run on the browser
-> http://localhost:8081
+> http://localhost:8082
 
 >> 'Welcome from Docker Compose.'
 
