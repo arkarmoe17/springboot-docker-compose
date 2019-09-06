@@ -6,6 +6,8 @@ services:
     build:
       context: ./
       dockerfile: Dockerfile
+    container_name: spring-docker-compose
+    restart: always
     volumes:
       - /data/spring-docker-compose
     ports:
