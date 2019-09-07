@@ -8,7 +8,14 @@ services:
       dockerfile: Dockerfile
     container_name: spring-docker-compose
     restart: always
+    logging:
+      driver: json-file
     volumes:
       - /data/spring-docker-compose
     ports:
-      - "8082:8082"
+      - "10.201.118.4:8082:8082"
+
+
+
+
+
